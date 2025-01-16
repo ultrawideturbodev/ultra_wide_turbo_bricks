@@ -1,0 +1,5 @@
+name: scripts
+description: Ultra wide turbo scripts brick.
+version: 0.1.0+1
+environment:
+  mason: ^0.1.0

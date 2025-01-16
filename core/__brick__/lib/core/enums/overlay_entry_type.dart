@@ -1,0 +1,4 @@
+enum OverlayEntryType {
+  emojiPicker,
+  confetti,
+}

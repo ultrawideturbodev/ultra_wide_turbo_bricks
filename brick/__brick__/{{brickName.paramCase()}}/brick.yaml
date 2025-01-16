@@ -1,0 +1,27 @@
+name: {{brickName.paramCase()}}
+description: An ultra wide turbo {{brickName.paramCase()}} brick.
+version: 0.1.0+1
+environment:
+  mason: ^0.1.0
+vars:
+  collectionName:
+    type: string
+    description: Name of the collection (e.g. properties -> FirestoreCollection.properties, PropertiesService, PropertiesApi) (plural)
+  dtoName:
+    type: string
+    description: Name of the DTO without 'Dto' (property -> PropertyDto) (singular)
+  featureName:
+    type: string
+    description: The name of the feature (e.g. auth -> lib/features/auth).
+  packageName:
+    type: string
+    description: The package name (e.g. ultra_wide_turbo_bricks -> import 'package:ultra_wide_turbo_bricks..)
+  projectKey:
+    type: string
+    description: The project key (e.g. turbo -> TurboScaffold).
+  serviceName:
+    type: string
+    description: Name of the Service (dialog -> DialogService)
+  viewName:
+    type: string
+    description: The name of the view (e.g. turbo -> TurboView).
