@@ -1,0 +1,23 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "path",
+      "rootUri": "file:///Users/codaveto/.puro/shared/pub_cache/hosted/pub.dev/path-1.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "brick_updater",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2025-01-18T10:47:11.899934Z",
+  "generator": "pub",
+  "generatorVersion": "3.6.1",
+  "flutterRoot": "file:///Users/codaveto/Flutter",
+  "flutterVersion": "3.27.2",
+  "pubCache": "file:///Users/codaveto/.puro/shared/pub_cache"
+}

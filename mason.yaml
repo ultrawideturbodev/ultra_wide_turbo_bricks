@@ -1,4 +1,3 @@
-version: 0.0.1
 bricks:
   api:
     path: api
@@ -6,17 +5,15 @@ bricks:
     path: brick
   collection-service:
     path: "collection-service"
-  core:
-    path: core
   document-service:
     path: "document-service"
   router:
     path: router
-  routing:
-    path: routing
   scripts:
     path: scripts
   service:
     path: service
   view:
     path: scripts
+  constants:
+    path: constants

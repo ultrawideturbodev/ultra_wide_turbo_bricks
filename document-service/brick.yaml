@@ -13,6 +13,6 @@ vars:
   collectionName:
     type: string
     description: Name of the collection (e.g. users -> FirestoreCollection.users) (plural)
-  dtoName:
+  collectionObjectName:
     type: string
     description: Name of the DTO without 'Dto' (user -> UserDto) (singular)

@@ -37,7 +37,7 @@ mason add <brick_name> --git-url https://github.com/your-username/ultra_wide_tur
 mason make collection-service \
   --featureName auth \
   --collectionName users \
-  --dtoName user
+  --collectionObjectName user
 ```
 
 ### Document Service Generation
@@ -45,7 +45,7 @@ mason make collection-service \
 mason make document-service \
   --featureName profile \
   --collectionName profiles \
-  --dtoName profile
+  --collectionObjectName profile
 ```
 
 ### View Generation
@@ -61,7 +61,7 @@ Each brick requires specific variables:
 
 - `featureName`: Feature module name (e.g., "auth", "profile")
 - `collectionName`: Firestore collection name (plural, e.g., "users")
-- `dtoName`: DTO class name without suffix (singular, e.g., "user")
+- `collectionObjectName`: DTO class name without suffix (singular, e.g., "user")
 - `name`: Component name for views and other generators
 
 ## Project Structure

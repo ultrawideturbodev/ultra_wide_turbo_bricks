@@ -7,21 +7,28 @@ vars:
   collectionName:
     type: string
     description: Name of the collection (e.g. properties -> FirestoreCollection.properties, PropertiesService, PropertiesApi) (plural)
-  dtoName:
+    prompt: What is the name of the collection?
+  collectionObjectName:
     type: string
-    description: Name of the DTO without 'Dto' (property -> PropertyDto) (singular)
+    description: The singular object name of the collection (e.g. properties -> property)
+    prompt: What should we call a single object in this collection?
   featureName:
     type: string
     description: The name of the feature (e.g. auth -> lib/features/auth).
+    prompt: What is the name of the feature?
   packageName:
     type: string
     description: The package name (e.g. ultra_wide_turbo_bricks -> import 'package:ultra_wide_turbo_bricks..)
+    prompt: What is the package name?
   projectKey:
     type: string
     description: The project key (e.g. turbo -> TurboScaffold).
+    prompt: What is the project key?
   serviceName:
     type: string
     description: Name of the Service (dialog -> DialogService)
+    prompt: What is the name of the service? (without 'Service' suffix)
   viewName:
     type: string
     description: The name of the view (e.g. turbo -> TurboView).
+    prompt: What is the name of the view? (without 'View' suffix)

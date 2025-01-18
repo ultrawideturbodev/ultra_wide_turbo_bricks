@@ -3,11 +3,11 @@ enum FirestoreCollection {
   ;
 
   Map<String, dynamic> Function(T value)? toJson<T>() => switch (this) {
-        FirestoreCollection.{{collectionName.camelCase()}} => {{dtoName.pascalCase()}}Dto.toJsonFactory,
+        FirestoreCollection.{{collectionName.camelCase()}} => {{collectionObjectName.pascalCase()}}Dto.toJsonFactory,
       } as Map<String, dynamic> Function(T value)?;
 
   T Function(Map<String, dynamic> json)? fromJson<T>() => switch (this) {
-        FirestoreCollection.{{collectionName.camelCase()}} => {{dtoName.pascalCase()}}Dto.fromJsonFactory,
+        FirestoreCollection.{{collectionName.camelCase()}} => {{collectionObjectName.pascalCase()}}Dto.fromJsonFactory,
       } as T Function(Map<String, dynamic> json)?;
 
   String get apiName {

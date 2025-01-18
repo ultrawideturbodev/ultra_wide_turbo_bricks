@@ -1,4 +1,4 @@
-class {{collectionName.pascalCase()}}Api extends {{projectKey.pascalCase()}}Api<{{dtoName.pascalCase()}}Dto> {
+class {{collectionName.pascalCase()}}Api extends {{projectKey.pascalCase()}}Api<{{collectionObjectName.pascalCase()}}Dto> {
   {{collectionName.pascalCase()}}Api()
       : super(
           firestoreCollection: FirestoreCollection.{{collectionName.camelCase()}},

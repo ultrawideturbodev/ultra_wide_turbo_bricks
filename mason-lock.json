@@ -1,1 +1,1 @@
-{"bricks":{"scripts":{"path":"."},"service":{"path":"."},"routing":{"path":"."},"document-service":{"path":"."},"core":{"path":"."},"collection-service":{"path":"."},"brick":{"path":"."},"api":{"path":"."},"router":{"path":"."}}}
+{"bricks":{"scripts":{"path":"."},"service":{"path":"."},"routing":{"path":"."},"document-service":{"path":"."},"collection-service":{"path":"."},"brick":{"path":"."},"api":{"path":"."},"router":{"path":"."},"constants":{"path":"."}}}
